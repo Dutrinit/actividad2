@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contenedor-principal {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #ffffff;
+    border-left: 0.1rem solid #ddd;
+    border-right: 0.1rem solid #ddd;
+    box-sizing: border-box;
+}
+
+.cabecera-fija {
+    position: fixed;
+    top: 0;
+    width: 80%; 
+    left: 10%;
+    background-color: #222;
+    padding: 1.2rem 0;
+    text-align: center;
+    z-index: 100;
+}
+
+.cabecera-fija a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.contenido {
+    margin-top: 6rem;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.indice-cuadro {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border: 0.1rem solid #eee;
+    border-radius: 0.8rem;
+    margin-bottom: 8rem;
+}
+
+.indice-cuadro ul {
+    list-style: none;
+    padding: 0;
+}
+
+.indice-cuadro li {
+    margin: 1.2rem 0;
+}
+
+.indice-cuadro a {
+    text-decoration: none;
+    color: #d35400;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.indice-cuadro a:hover {
+    text-decoration: underline;
+}
+
+
+.seccion-receta {
+    padding: 8rem 0; 
+    border-bottom: 0.1rem solid #eee;
+}
+
+.seccion-receta h2 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.seccion-receta p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.link-volver {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #95a5a6;
+    font-size: 1rem;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.link-volver:hover {
+    color: #34495e;
+}
